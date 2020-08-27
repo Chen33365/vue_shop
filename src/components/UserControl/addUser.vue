@@ -96,7 +96,7 @@ export default {
     'addDialogVisible':function(){
       this.newAddDialogVisible = this.addDialogVisible
     }
-  }
+  },
 };
 </script>
 
