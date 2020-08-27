@@ -45,8 +45,11 @@ export default {
 
 <style scoped lang="less">
 .home-container {
-  height: 100%;
+  height: 100vh;
   width: 100%;
+}
+.el-container{
+  height: 100vh;
 }
 .el-header {
   background-color: #373d41;
@@ -76,6 +79,8 @@ export default {
 }
 .el-main {
   background-color: #eaedf1;
+  overflow: auto;
+  flex-basis: auto;
 }
 .toggle-button {
   background-color: #4a5064;
